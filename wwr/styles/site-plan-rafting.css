@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:wght@400;500&display=swap");
+:root {
+  --primary-color: #081c15ff;
+  --secondary-color: #40916cff;
+
+  --accent-color-1: #52b788ff;
+  --accent-color-2: #1b4332ff;
+  --heading-font-family: "Inter", sans-serif;
+  --paragraph-font-family: "Roboto", sans-serif;
+  --nav-background-color: #95d5b2ff;
+  --nav-link-color: #081c15ff;
+  --nav-link-color-hover: #2d6a4f;
+  --nav-link-color-active: #52b788ff;
+  --nav-hover-background-color: #52b788ff;
+}
+
+body {
+  font-family: var(--paragraph-font-family);
+  max-width: 960px;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  color: var(--primary-color);
+}
+
+header {
+  padding: 20px;
+  background-color: var(--accent-color-1);
+}
+
+p {
+  padding: 25px;
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+nav a {
+  display: inline-block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link,
+nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-text-color-hover);
+  background-color: var(--nav-hover-background-color);
+}
