@@ -2,18 +2,22 @@ main {
   max-width: 840px;
 }
 aside {
+  position: relative;
   width: 20rem;
-  margin: 1rem;
-  border: 1px solid #0000;
-  padding: 1rem;
   text-align: center;
-  color: #bedbed;
-  background-color: #25383c;
+}
+main img {
+  float: right;
 }
 
 aside img {
   width: 200px;
   height: auto;
+}
+aside h2 {
+  position: absolute;
+  top: 35px;
+  left: 130px;
 }
 
 p {
@@ -24,4 +28,13 @@ footer {
   margin-top: 15px;
   border-top: 1px solid #0000;
   text-align: center;
+}
+
+/* class selectors */
+.box {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #0000;
+  background-color: #bedbed;
+  color: #25383c;
 }
