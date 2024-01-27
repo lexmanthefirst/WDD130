@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 main {
   max-width: 840px;
 }
@@ -30,7 +35,7 @@ footer {
   text-align: center;
 }
 
-/* class selectors */
+/* Class Selectors */
 .box {
   margin: 1rem;
   padding: 1rem;
