@@ -48,14 +48,14 @@ nav a:link {
   color: var(--primary-color);
   background-color: var(--secondary-color);
 }
-.hero article {
+.hero > article {
   position: absolute;
   top: 20%;
   background-color: var(--accent1-color);
   height: 20%;
 }
 
-.hero-img {
+.hero > img {
   margin-top: 5%;
   display: block;
   width: 100%;
