@@ -3,8 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-main {
+
+
+header, .grid, footer {
   max-width: 840px;
+  margin: 0 auto;
 }
 aside {
   position: relative;
@@ -15,6 +18,14 @@ main img {
   float: right;
 }
 
+main h1 {
+  color: #0b5766;
+  text-align: center;
+  border-bottom: 1px solid #0a0e0e ;
+  padding: 8px;
+  margin: 5px;
+}
+
 aside img {
   width: 200px;
   height: auto;
@@ -22,7 +33,7 @@ aside img {
 aside h2 {
   position: absolute;
   top: 35px;
-  left: 130px;
+  left: 107px;
 }
 
 p {
@@ -35,6 +46,23 @@ footer {
   text-align: center;
 }
 
+nav{
+background-color: #2f8dc7;
+display: flex;
+padding: 1rem;
+justify-content: space-evenly;
+align-items: center;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+
 /* Class Selectors */
 .box {
   margin: 1rem;
@@ -42,4 +70,20 @@ footer {
   border: 1px solid #0000;
   background-color: #bedbed;
   color: #25383c;
+}
+.grid{
+  display: grid;
+  align-items: center;
+}
+
+main{
+  grid-column: 2/3;
+  margin: 1rem;
+}
+
+aside{
+  width: 20rem;
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
