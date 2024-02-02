@@ -76,6 +76,8 @@ nav a {
   align-items: center;
 }
 
+/* Grid columns and row */
+
 main{
   grid-column: 2/3;
   margin: 1rem;
