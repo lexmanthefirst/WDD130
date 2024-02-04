@@ -30,7 +30,7 @@ body {
   max-width: 100vw;
 }
 
-header  nav{
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,7 +38,7 @@ header  nav{
   background-color: var(--nav-background-color);
   width: 38rem;
   border-radius: 0.5rem;
-  }
+}
 header nav a:link {
   color: var(--nav-link-color);
   text-decoration: none;
@@ -89,25 +89,24 @@ article img {
   float: right;
 }
 
-footer{
+footer {
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
   margin: 1rem auto;
   max-width: 1000px;
 }
-footer p{
+footer p {
   color: var(--primary-color);
   font-size: 1rem;
   text-align: center;
   margin: 0.5rem;
-
 }
 footer img {
   width: 20px;
   height: 20px;
 }
-footer nav{
+footer nav {
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -116,7 +115,6 @@ footer nav{
   width: 10rem;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  
 }
 
 header {
@@ -127,7 +125,6 @@ header {
   max-width: 1000px;
   border-bottom: 1px solid var(--primary-color);
   gap: 10rem;
-
 }
 header img {
   width: 100%;
@@ -154,7 +151,7 @@ section h2 {
   font-size: 2rem;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.1rem; 
+  letter-spacing: 0.1rem;
   background-color: var(--accent2-color);
   border-radius: 0.5rem;
   padding: 1rem;
@@ -166,28 +163,42 @@ section h2 {
   margin: 1rem auto;
   border-radius: 0.5rem;
 }
-.history-container{
+.history-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-  .history-container p {
-    color: #fff;
-    background-color: var(--accent2-color);
-    border-radius: 0.5rem;
-    padding: 1rem;
-    width: 18rem;
-  }
-  .adventure-img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem auto;
-  }
-  .adventure-img img {
-    width: 10rem;
-    height: 10rem;
-    margin: 1rem;
-    border-radius: 0.5rem;
-  }
+.history-container p {
+  color: #fff;
+  background-color: var(--accent2-color);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 18rem;
+}
+.adventure-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+}
+.adventure-img img {
+  width: 12rem;
+  height: 10rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+figure{
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+figcaption {
+  background-color: var(--accent2-color);
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
