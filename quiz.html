@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+    name="description"
+    content="This page displays a User Input quiz form that contains a text input field, textarea, number input, and a submit button">
+  <meta name="author" content="Alex Okhitoya">
     <title>WDD 130 | HTML Form - User Poll</title>
     <link rel="stylesheet" href="styles/quiz.css">
 </head>
@@ -16,7 +20,7 @@
             <form action="#">
                 
                     <label for="q1"><strong>1.</strong>What is the Capital of Nigeria?</label>
-                    <input type="text" id="q1">
+                    <input type="text" id="q1" name="q1">
                     <label for="q2"><strong>2.</strong>What are invasive species?</label>
                     <textarea name="q2" id="q2" cols="30" rows="10"></textarea>
                     <label for="q3"><strong>3.</strong>What is the capital of the United States?</label>
@@ -29,7 +33,7 @@
                         </select>
                         <label for="q4"><strong>4.</strong> How old is Nigeria?</label>
                         <input type="number" name="q4" id="q4">
-                        <button type="submit">Submit</button>
+                        <button type="submit" id="q4">Submit</button>
             </form>
         </fieldset>
         
