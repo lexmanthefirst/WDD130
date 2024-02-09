@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #f2f2f2;
+  padding: 16px;
+ border-bottom: 1px solid #3a8e94;
+ color: #0a555a;
+ outline: 1px solid #3a8e94;
+
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+fieldset {
+  width: 25em;
+  
+  background-color: #f2f2f2;
+  padding: 16px;
+  border-radius: 0.5rem;
+  border: 1px solid #3a8e94;
+}
+
+form {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+    justify-content: space-around;
+    height: 30rem;
+}
+legend {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #3a8e94;
+}
+button[type="submit"] {
+  background-color: #3a8e94;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+  border-radius: 0.5rem;
+
+  &:hover {
+    background-color: #01181a;
+  }
+}
+
+input {
+  padding: 8px 16px;
+  border: 1px solid #3a8e94;
+  border-radius: 0.5rem;
+  font-size: 1em;
+  font-weight: 500;
+
+  &:focus {
+    outline: none;
+    border: 1px solid #01181a;
+  }
+}
+
+textarea {
+  padding: 8px 16px;
+  border: 1px solid #3a8e94;
+  border-radius: 0.5rem;
+  font-size: 1em;
+  font-weight: 500;
+
+  &:focus {
+    outline: none;
+    border: 1px solid #01181a;
+  }
+}
+
+select {
+  padding: 8px 16px;
+  border: 1px solid #3a8e94;
+  border-radius: 0.5rem;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #e1e6f4;
+
+  &:focus {
+    outline: none;
+    border: 1px solid #01181a;
+  }
+}
+option {
+  font-size: 1em;
+  font-weight: 500;
+
+}
+
+strong {
+  color: #3a8e94;
+  font-weight: 500;
+}
