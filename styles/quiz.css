@@ -18,10 +18,9 @@ footer {
   height: 10vh;
   background-color: #f2f2f2;
   padding: 16px;
- border-bottom: 1px solid #3a8e94;
- color: #0a555a;
- outline: 1px solid #3a8e94;
-
+  border-bottom: 1px solid #3a8e94;
+  color: #0a555a;
+  outline: 1px solid #3a8e94;
 }
 main {
   display: flex;
@@ -31,11 +30,12 @@ main {
 }
 fieldset {
   width: 25em;
-  
+
   background-color: #f2f2f2;
   padding: 16px;
   border-radius: 0.5rem;
   border: 1px solid #3a8e94;
+  
 }
 
 form {
@@ -43,8 +43,8 @@ form {
   font-weight: 500;
   display: flex;
   flex-direction: column;
-    justify-content: space-around;
-    height: 30rem;
+  justify-content: space-around;
+  height: 30rem;
 }
 legend {
   font-size: 1.2em;
@@ -60,10 +60,11 @@ button[type="submit"] {
   font-size: 1em;
   font-weight: 500;
   border-radius: 0.5rem;
+  cursor: pointer;
+}
 
-  &:hover {
-    background-color: #01181a;
-  }
+button[type="submit"]:hover {
+  background-color: #01181a;
 }
 
 input {
@@ -72,11 +73,11 @@ input {
   border-radius: 0.5rem;
   font-size: 1em;
   font-weight: 500;
-
-  &:focus {
-    outline: none;
-    border: 1px solid #01181a;
-  }
+  cursor: pointer;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #01181a;
 }
 
 textarea {
@@ -85,11 +86,11 @@ textarea {
   border-radius: 0.5rem;
   font-size: 1em;
   font-weight: 500;
+}
 
-  &:focus {
-    outline: none;
-    border: 1px solid #01181a;
-  }
+texrarea:focus {
+  outline: none;
+  border: 1px solid #01181a;
 }
 
 select {
@@ -99,16 +100,16 @@ select {
   font-size: 1em;
   font-weight: 500;
   background-color: #e1e6f4;
+  cursor: pointer;
+}
 
-  &:focus {
-    outline: none;
-    border: 1px solid #01181a;
-  }
+select:focus {
+  outline: none;
+  border: 1px solid #01181a;
 }
 option {
   font-size: 1em;
   font-weight: 500;
-
 }
 
 strong {
