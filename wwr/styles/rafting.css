@@ -228,7 +228,7 @@ figcaption {
   background-color: var(--nav-background-color);
 }
 
-button[type="submit"] {
+button {
   background-color: #3a8e94;
   color: #fff;
   padding: 8px 16px;
@@ -241,7 +241,7 @@ button[type="submit"] {
   cursor: pointer;
 }
 
-button[type="submit"]:hover {
+button:hover {
   background-color: #01181a;
 }
 
@@ -261,22 +261,7 @@ input::placeholder {
   color: #3a8e94;
 }
 
-input[type="submit"] {
-  background-color: #3a8e94;
-  color: #fff;
-  padding: 8px 16px;
-  border: none;
-  cursor: pointer;
-  font-size: 1em;
-  font-weight: 500;
-  width: 10rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
 
-input[type="submit"]:hover {
-  background-color: #01181a;
-}
 textarea {
   padding: 8px 16px;
   border: 1px solid #3a8e94;
