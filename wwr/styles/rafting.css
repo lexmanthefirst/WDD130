@@ -151,6 +151,10 @@ footer nav {
   padding: 0.5rem;
 }
 
+footer a{
+  text-decoration: none;
+  color: var(--body-font-color);
+}
 header {
   display: grid;
   grid-template-columns: 120px 1fr 2fr;
@@ -510,7 +514,7 @@ main h2 {
   padding: 1rem;
 }
 
-.book_now button {
+.book_now a {
   margin: 1rem auto;
   display: block;
   padding: 0.5rem;
@@ -523,6 +527,7 @@ main h2 {
   box-shadow: 5px 5px #ddd;
   color: var(--body-font-color);
   outline: 1px solid #000;
+  text-decoration: none;
 }
 .book_now button:hover {
   background-color: var(--nav-hover-background-color);
